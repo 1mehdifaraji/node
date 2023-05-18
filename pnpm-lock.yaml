@@ -14,7 +14,6 @@ specifiers:
   dotenv: ^16.0.3
   eslint: ^8.17.0
   express: ^4.18.2
-  helmet: ^7.0.0
   module-alias: ^2.2.2
   morgan: ^1.10.0
   nodemon: ^2.0.16
@@ -26,7 +25,6 @@ dependencies:
   cors: 2.8.5
   dotenv: 16.0.3
   express: 4.18.2
-  helmet: 7.0.0
   module-alias: 2.2.2
   morgan: 1.10.0
   typescript: 4.9.5
@@ -1011,11 +1009,6 @@ packages:
     engines: {node: '>= 0.4.0'}
     dependencies:
       function-bind: 1.1.1
-    dev: false
-
-  /helmet/7.0.0:
-    resolution: {integrity: sha512-MsIgYmdBh460ZZ8cJC81q4XJknjG567wzEmv46WOBblDb6TUd3z8/GhgmsM9pn8g2B80tAJ4m5/d3Bi1KrSUBQ==}
-    engines: {node: '>=16.0.0'}
     dev: false
 
   /http-errors/2.0.0:
